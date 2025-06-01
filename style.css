@@ -90,8 +90,20 @@ body{
     font-size :28px; 
     margin-top: -6px;
 }
-@media screen and (width<730px ) {
+@media  (max-width:500px ) {
+    .card {
+        max-width: 98vw;
+        padding: 10px;
+    }
+    .weather img.weather-icon {
+        width: 70px;
+    }
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .search input{
-        width: 80%;
+        width: 60%;
     }   
+    
 }
