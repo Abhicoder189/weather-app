@@ -90,3 +90,8 @@ body{
     font-size :28px; 
     margin-top: -6px;
 }
+@media screen and (width<730px ) {
+    .search input{
+        width: 80%;
+    }   
+}
